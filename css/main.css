@@ -1,3 +1,13 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 241, 243);
+}
+
+.header {
+  background-color: rgb(222, 232, 233);
+}
+
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +16,13 @@
 
 .nav-list__item {
   margin: 5px 5px;
+}
+
+.main-footer {
+  width: 100%;
+  background-color: rgb(108, 131, 158);
+}
+
+.main-footer .nav-list__link {
+  color: azure;
 }
