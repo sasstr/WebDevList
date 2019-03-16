@@ -1,15 +1,35 @@
-.body {
-  margin: 0;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
   padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Arial", sans-serif;
   background-color: rgb(240, 241, 243);
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
+  margin: 0 auto;
   background-color: rgb(222, 232, 233);
 }
 
 .nav-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   list-style-type: none;
 }
@@ -18,7 +38,17 @@
   margin: 5px 5px;
 }
 
+.main {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.main__title {
+  color: rgb(61, 61, 133);
+}
+
 .main-footer {
+  margin: 0 auto;
   width: 100%;
   background-color: rgb(108, 131, 158);
 }
